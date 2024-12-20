@@ -5,6 +5,7 @@ pipeline {
 		stage("Front1") {
 			steps {
 				echo "Frontend 1"
+				sh "cat front.txt"
 			}
 		}
 	}

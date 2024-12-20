@@ -5,6 +5,7 @@ pipeline {
 		stage("Back1") {
 			steps {
 				echo "Backend"
+				sh "cat back.txt"
 			}
 		}
 	}
