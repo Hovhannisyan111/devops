@@ -2,9 +2,9 @@ pipeline {
 	agent any
 
 	stages {
-		stage("Back1") {
+		stage("Front1") {
 			steps {
-				echo "Backend"
+				echo "Frontend 1"
 			}
 		}
 	}
